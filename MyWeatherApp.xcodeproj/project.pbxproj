@@ -84,6 +84,7 @@
 			children = (
 				3AA4CB44281FF7F20039EF61 /* AppDelegate.swift */,
 				3AA4CB46281FF7F20039EF61 /* SceneDelegate.swift */,
+				3ABC9631282010AA003B27C1 /* ViewModel */,
 				3AA4CB5D281FF8D60039EF61 /* View */,
 				3ABC963928201471003B27C1 /* Model */,
 				3AA4CB50281FF7F40039EF61 /* Assets.xcassets */,
@@ -99,7 +100,6 @@
 			children = (
 				3AA4CB5B281FF8A10039EF61 /* MainViewController.swift */,
 				3AA4CB5E281FF9EC0039EF61 /* Cell */,
-				3ABC9631282010AA003B27C1 /* ViewModel */,
 			);
 			path = View;
 			sourceTree = "<group>";

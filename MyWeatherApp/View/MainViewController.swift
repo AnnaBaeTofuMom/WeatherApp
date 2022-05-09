@@ -17,10 +17,19 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         self.configuration()
+        
         self.makeConstraints()
         
-        model.getWeather()
+        getWeather()
+
         
+    }
+    
+    private func getWeather() {
+        self.model.getWeather() { str in
+            print(str)
+            self.tableView.reloadData()
+        }
         
     }
     
